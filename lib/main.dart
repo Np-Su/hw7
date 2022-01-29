@@ -238,10 +238,13 @@ class HomePage extends StatelessWidget {
           color: Colors.white,
           shape: BoxShape.circle,
         ),
-        child: Text(
+        child: Align(
+            alignment: Alignment.center,
+          child: Text(
             '$num',
             textAlign: TextAlign.center,
-            style:TextStyle(fontSize: 20,)
+            style:TextStyle(fontSize: 20)
+          ),
         ),
       ),
     );
